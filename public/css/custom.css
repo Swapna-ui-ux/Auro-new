@@ -1,0 +1,331 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.scw-switcher-wrap,
+.scw-trigger-icon {
+	position: fixed;
+	left: auto;
+	background-color: #fff
+}
+.scw-trigger-icon {
+	width: 44px;
+	height: 44px;
+	top: 121px;
+	right: 26px;
+	border: 0;
+	padding: 0;
+	text-align: center;
+	z-index: 5;
+	cursor: pointer
+}
+.scw-trigger-icon i {
+	font-size: 18px
+}
+.scw-switcher-wrap.scw-switcher-open i:nth-of-type(1),
+.scw-switcher-wrap:not(.scw-switcher-open) i:nth-of-type(2) {
+	display: none
+}
+.scw-switcher-wrap {
+	top: 120px;
+	right: 25px;
+	padding: 23px;
+	width: 0;
+	height: 0;
+	border: 1px solid rgba(0, 0, 0, .09);
+	border-radius: 3px;
+	box-shadow: 0 13px 42px 11px rgba(0, 0, 0, .05);
+	z-index: 9999;
+	overflow: hidden;
+	-webkit-transition: all .45s ease;
+	-o-transition: all .45s ease;
+	transition: all .45s ease
+}
+.scw-switcher-wrap.scw-switcher-open {
+	width: 300px;
+	height: 70%;
+	padding: 35px 25px;
+	overflow-y: scroll
+}
+.scw-switcher-wrap .widget {
+	margin: 0
+}
+.scw-switcher-wrap .line,
+.scw-switcher-wrap .widget {
+	opacity: 0;
+	-webkit-transition: opacity 0s ease;
+	-o-transition: opacity 0s ease;
+	transition: opacity 0s ease
+}
+.scw-switcher-wrap.scw-switcher-open .line,
+.scw-switcher-wrap.scw-switcher-open .widget {
+	opacity: 1;
+	-webkit-transition: opacity .3s .4s ease;
+	-o-transition: opacity .3s .4s ease;
+	transition: opacity .3s .4s ease
+}
+.scw-switcher-wrap .widget h4 {
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin-bottom: 15px
+}
+.scw-switcher-wrap .btn-container {
+	margin: 0 -5px -5px 0
+}
+.scw-switcher-wrap .btn {
+	margin: 0 5px 5px 0
+}
+.scw-switcher-wrap .row {
+	margin: 0 -5px
+}
+.scw-switcher-wrap .col-6 {
+	padding: 5px
+}
+
+
+
+/* OWN CSS May-26 */
+.imgsidebox{ 
+    padding: 0px 15px 15px !important;
+    background-color: #325194 !important;
+    height: 285px;
+}
+.imgsidebox1{ 
+    padding: 15px !important;
+    background-color: #53b3a7 !important;
+    height: 285px;
+}
+.apf-text h4 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.apfimg{
+	border:1px solid #ccc;
+	padding: 4px;
+}
+.apf-con {
+    color: #fff;
+    padding-top: 0px;
+    font-size: 14px;
+}
+.pad-0{
+	padding: 0px;
+}
+.text-right{
+	text-align: right;
+}
+.copyright-area-content p{
+	margin-bottom: 0px;
+	    color: #fff;
+    font-size: 13px;
+}
+
+/* June2 2021 */
+
+form .input-search { 
+    width: 54%;
+    border: none;
+    margin: 15% -3% 0px 22%;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    font-size: 20px;
+    height: 70px;
+    color: #fff;
+}
+.popup-close{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    opacity: 0.5;
+    z-index: 9;
+} 
+.modal-content { 
+    /*   background-color: rgba(0, 0, 0, .5);*/
+    background-color: rgb(0 0 0 / 88%) !important;
+
+}
+.modal-header {
+     border-bottom: 0px solid #dee2e6;  
+}
+.search-overlay-form button{
+	background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+}
+.header-icons{
+	padding: 0px 8px;
+    font-size: 20px;
+} 
+.copyline{
+	padding: 0px 8px;
+}
+.headersearch i{
+    font-size: 22px;
+    color: #000;
+}
+.headersearch {
+    padding: 0px 8px;
+}
+.menumargin{
+	margin: 0px 3.5%;
+ }
+.font-30{
+	font-size: 30px;
+}
+.innerbanner{
+	position: absolute;
+}
+.page-title-parallax {
+	background-image: url('../img/innerbanner.png'); 
+    padding: 0px 0;
+    background-position: top right;
+    background-size: 108%;
+}
+.head-title h2{
+	font-size: 29px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.mission_blockstitles{
+    background: #3b5a99;
+    clear: both;
+    float: left;
+    width: 100%;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.h4-title h4{
+	font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.h4-title h5{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 25px;
+}
+.listitems{
+	padding-left: 20px;
+}
+.listitems li{
+	line-height: 30px;
+}
+.head-title h5{
+	font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.head-title h4{
+	font-size: 20px; 
+}
+ul.govrce_plcy {
+    padding: 0;
+}
+.govrce_plcy li {
+    background: #fff !important;
+    -webkit-box-shadow: 3px 3px 0px 1px rgb(227 227 227);
+    -o-box-shadow: 3px 3px 0px 1px rgb(227,227,227);
+    -moz-box-shadow: 3px 3px 0px 1px rgb(227,227,227);
+    box-shadow: 3px 3px 0px 1px rgb(227 227 227);
+    color: #325194;
+    font-weight: 600;
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 3px 5px;
+    border: rgb(227,227,227) solid 1px;
+}.govrce_plcy a {
+    padding: 10px;
+    display: block;
+    color: #333;
+}.pull-right {
+    float: right!important;
+}
+.govrce_plcy a:hover {
+    color: #3cab9b;
+}
+.govrce_plcy i {
+    font-size: 23px;
+    margin-left: 15px;
+    color: #dc1d1d;
+}
+.learn-more-text {
+    font-size: 20px;
+    color: #3b3b3b;
+    font-weight: bold;
+}
+.contactaddesblocks{
+	border-top: #000000 solid 4px;
+}
+.top-pdf{
+	padding-top: 20px;
+}
+ 
+/* TABS CSS */
+
+.nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
+    background: #305094;
+    color: #fff;
+}
+.nav-tabs .nav-link {
+	    color: #666;
+    border-color: #dee2e6 #dee2e6 #fff;
+    padding: 14px 20px;
+    font-family: 'Lato',sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #e3e3e3;
+}
+.dropdown-menu { 
+    padding: 0px 0;
+    top: 55px;
+    margin-top: 45px;
+    border:none;
+    width: 200px;
+    height: 185px;
+    overflow-y: scroll; 
+    -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+  
+}     
+ .dropdown-menu .nav-link { 
+ 	padding: 10px 22px;
+    border: 0px solid transparent;  
+}  
+.tab-content > .tab-pane .tab-brdr{
+    padding-left: 0;
+    border: #e3e3e3 solid 1px !important;
+    padding: 45px 20px 20px;
+    margin-top: 1px;
+    margin-bottom:35px;
+} 
+.nav-tabs .dropdown-menu { 
+    border-top: 3px solid #333;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 0px;
+}
+
+.parent {
+  display: flex; 
+} 
+@media screen and (max-width: 600px){ 
+  .parent {
+    flex-direction: column-reverse !important;  
+  }
+  
+  
+}
