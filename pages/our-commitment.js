@@ -11,10 +11,8 @@ const ourcommitment = () => {
 		bcontent :"We are diligently and sustainably achieving <br/> excellence in all that we do",
 	}
 
-
     return (
         <>
-
           <Innerbanner {...bannerdetails} ></Innerbanner>
           {/* <!-- Content --> */}
 		<section id="content">

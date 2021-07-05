@@ -8,7 +8,7 @@ const resultsannouncements = () => {
 	var bannerdetails={
 		bimage :"img/banners/Social-Accountability-Standards-banner.png",
 		bTitle :"Shaping holistic community well-being",
-		bcontent :"We are diligently and sustainably achieving<br/> excellence in all that we do",
+		bcontent :"We are diligently and sustainably achieving <br/> excellence in all that we do",
 	}
 
     return (

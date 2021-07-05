@@ -1127,7 +1127,8 @@
 		top: 0!important;
 		left: 0!important;
 		right: 0!important;
-		margin: 20px 0 0!important;
+		/*margin: 20px 0 0!important;*/
+		margin: 0px 0 0!important;
 		justify-content: left;
 	}
 	#page-title #portfolio-navigation,
@@ -1851,7 +1852,10 @@ body.no-transition #wrapper {
 
 /* Custom Responsive CSS */
 
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 991px){ 
+.main-timeline1 {
+    margin: 0 0px !important;
+}
 .copyright-area-content p {
     margin-bottom: 8px !important;
     line-height: 25px; 
@@ -1904,6 +1908,8 @@ form .input-search {
 }
 #page-title.page-title-parallax h1 {
     font-size: 18px; 
+    line-height: 30px;
+    width: 100%;
 }
 #page-title.page-title-parallax h6 {
     font-size: 17px; 
@@ -1914,8 +1920,12 @@ form .input-search {
 	background-position: top right;
     background-size: 322% !important;
 }
-
-
+.modal-dialog { 
+    margin: 0px; 
+}
+ul.pagelinksabouts li { 
+    width: 100% !important;
+}
 
 
 }

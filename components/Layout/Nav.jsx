@@ -14,8 +14,8 @@ const Nav = () => {
 					<div className="header-row">
 
 					    <div id="logo">
-							<a href="index.php" className="standard-logo" data-dark-logo="img/aurobindo-logo.png">
-								<img src="img/aurobindo-logo.png" alt="Aurobindo Logo"/></a> 
+							<a href="index.php" className="standard-logo" data-dark-logo="/img/aurobindo-logo.png">
+								<img src="/img/aurobindo-logo.png" alt="Aurobindo Logo"/></a> 
 						</div>
 						<div className="header-misc">
 							<div className="headersearch" data-bs-toggle="modal" data-bs-target=".bs-example-modal-fs">

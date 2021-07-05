@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Banner from '../components/Banner'
+import Banner from '../components/Home/Banner'
 import Commited from '../components/Home/Commited'
 
 

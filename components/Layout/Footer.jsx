@@ -40,7 +40,7 @@ const Footer = () => {
 				</div>
 				<div className="col-lg-4">
 					<div className="copyright-area-content">
-					  <p className="text-right"><a href="">Privacy Policy</a> <span>|</span> <a href="">Site Map</a></p>
+					  <p className="text-right"><a href="">Privacy Policy</a> <span class="copyline">|</span> <a href="">Site Map</a></p>
 				    </div>
 				</div>  
 					</div>

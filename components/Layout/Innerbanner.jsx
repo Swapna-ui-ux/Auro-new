@@ -7,6 +7,7 @@ const Innerbanner = (bannerdetails) => {
 	var baimage=bannerdetails.bimage;
 	var batitle=bannerdetails.bTitle;
 	var bacontent=bannerdetails.bcontent;
+	var breadcrumb=bannerdetails.breadcrumb;
 	//console.log(bannerdetails);
 	//console.log(baimage);
     return (
@@ -15,7 +16,9 @@ const Innerbanner = (bannerdetails) => {
 			<div className="container clearfix">
 				<h1>{batitle}</h1> 
 				{/* <h6>{bacontent}</h6> */}
+				
 				<h6 dangerouslySetInnerHTML={{ __html: bacontent }}></h6>
+				
 				<ol className="breadcrumb">
 					<li className="breadcrumb-item"><a href="#">Home</a></li>
 					<li className="breadcrumb-item"><a href="#">Investors</a></li> 
