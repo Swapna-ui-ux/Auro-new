@@ -22,7 +22,7 @@ const peptides = () => {
 					<div className="row">
 						<div className="col-12">
 							<div className="head-title">
-								<h2>Custom Synthesis</h2>
+								<h2>Peptides</h2>
 								<h4>Overview</h4>
 								<p>Auro Peptides Ltd. is the subsidiary division of Aurobindo Pharma that delivers innovative solutions from discovery to development and commercialization through to cost-effective drug development and manufacturing.<br/><br/>
 								Auro Peptide’s aims “to deliver cGMP material in a timely, transparent, reliable manner and in a facilitative environment, through streamlined processes and talented workforce.”

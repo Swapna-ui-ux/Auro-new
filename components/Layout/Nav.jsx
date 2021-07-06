@@ -1,11 +1,12 @@
-import React from 'react';
-
+import React from 'react'; 
 import PropTypes from 'prop-types';
+import {useRouter} from 'next/router' 
 
 const propTypes = {};
 
 const defaultProps = {};
 const Nav = () => {
+	const router = useRouter();
     return (
 <>
 <header id="header" className="full-header">
@@ -14,7 +15,7 @@ const Nav = () => {
 					<div className="header-row">
 
 					    <div id="logo">
-							<a href="index.php" className="standard-logo" data-dark-logo="/img/aurobindo-logo.png">
+							<a href="/" className="standard-logo" data-dark-logo="/img/aurobindo-logo.png">
 								<img src="/img/aurobindo-logo.png" alt="Aurobindo Logo"/></a> 
 						</div>
 						<div className="header-misc">
@@ -45,38 +46,39 @@ const Nav = () => {
 														<a className="menu-link" href="#"><div>At A Glance</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Business Overview</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/at-a-glance/business-overview')}}>Business Overview</div></a>
+																{/* <a className="menu-link" href=""><div>Business Overview</div></a> */}
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Timeline And History</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/at-a-glance/timeline-and-history')}}>Timeline And History</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Global Operations Map</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/at-a-glance/global-operations-map')}}>Global Operations Map</div></a>
 															</li> 
 														</ul>
 													</li>
 												</ul>
                                                 <ul className="sub-menu-container mega-menu-column col-md-4">
 													<li className="menu-item mega-menu-title">
-														<a className="menu-link" href="#"><div>Business Units</div></a>
+														<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/business-units/formulations')}}>Business Units</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Formulations</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/business-units/formulations')}}>Formulations</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Custom Synthesis</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/business-units/custom-synthesis')}}>Custom Synthesis</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Peptides</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/business-units/peptides')}}>Peptides</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>AuroZymes</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/business-units/aurozymes')}}>AuroZymes</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>R&D</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/business-units/rd')}}>R&D</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>API</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/business-units/api')}}>API</div></a>
 															</li>
 														</ul>
 													</li>
@@ -86,13 +88,13 @@ const Nav = () => {
 														<a className="menu-link" href="#"><div>Corporate Governance</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Board Of Directors</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/corporate-governance/board-of-directors')}}>Board Of Directors</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Board Committees</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/corporate-governance/board-committees')}}>Board Committees</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Governance Policies</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/corporate-governance/governance-policies')}}>Governance Policies</div></a>
 															</li>
 															 
 														</ul>
@@ -112,22 +114,22 @@ const Nav = () => {
 														<a className="menu-link" href="#"><div>Social-Accountability-Standards</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Social Compliance Certification</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Social Compliance Certification</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Sustainability Of Social Accountability Standards</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Sustainability Of Social Accountability Standards</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Human Rights Policy</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Human Rights Policy</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Progressive Health And Safety Practices</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Progressive Health And Safety Practices</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Community Impact</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Community Impact</div></a>
 															</li>
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>Supply Chain Management</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Supply Chain Management</div></a>
 															</li>
 														</ul>
 													</li>
@@ -139,12 +141,12 @@ const Nav = () => {
 															<li className="menu-item">
 																<a className="menu-link" href=""><div>Our Commitment</div></a>
 																<ul className="sub-menu-container mega-menu-dropdown">
-																	<li className="menu-item">
-																		<a className="menu-link" href=""><div>Annual Action Plan</div></a>
-																	</li> 
-																	<li className="menu-item">
+																<li className="menu-item">
 																		<a className="menu-link" href=""><div>CSR Committee</div></a>
 																	</li>
+																	<li className="menu-item">
+																		<a className="menu-link" href=""><div>Annual Action Plan</div></a>
+																	</li>  
 																	<li className="menu-item">
 																		<a className="menu-link" href=""><div>CSR Policy</div></a>
 																	</li>
@@ -221,7 +223,7 @@ const Nav = () => {
 														<a className="menu-link" href="#"><div>Access To Healthcare</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
-																<a className="menu-link" href=""><div>PEPFAR Program</div></a>
+																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/access-to-healthcare/pepfar-program')}}>PEPFAR Program</div></a>
 															</li> 
 														</ul>
 													</li>
