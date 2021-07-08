@@ -6,7 +6,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head >
+        <Head>
 
         <meta httpEquiv="content-type" content="text/html; charset=utf-8" />
 

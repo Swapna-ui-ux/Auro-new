@@ -43,7 +43,7 @@ const Nav = () => {
 											<div className="row">
 												<ul className="sub-menu-container mega-menu-column col-md-4">
 													<li className="menu-item mega-menu-title">
-														<a className="menu-link" href="#"><div>At A Glance</div></a>
+														<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/at-a-glance/business-overview')}}>At A Glance</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
 																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/at-a-glance/business-overview')}}>Business Overview</div></a>
@@ -85,7 +85,7 @@ const Nav = () => {
 												</ul>
 												<ul className="sub-menu-container mega-menu-column col-md-4">
 													<li className="menu-item mega-menu-title">
-														<a className="menu-link" href="#"><div>Corporate Governance</div></a>
+														<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/corporate-governance')}}>Corporate Governance</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
 																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/about-us/corporate-governance/board-of-directors')}}>Board Of Directors</div></a>
@@ -105,13 +105,13 @@ const Nav = () => {
 									</div>
 								</li> 
 								<li className="menu-item mega-menu">
-									<a className="menu-link" href="#"><div>Sustainability</div></a>
+									<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Sustainability</div></a>
 									<div className="mega-menu-content mega-menu-style-2" style={{"width": "100%"}}>
 										<div className="container">
 											<div className="row">
 												<ul className="sub-menu-container mega-menu-column col-lg-3">
 													<li className="menu-item mega-menu-title">
-														<a className="menu-link" href="#"><div>Social-Accountability-Standards</div></a>
+														<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Social-Accountability-Standards</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
 																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/social-accountability-standards')}}>Social Compliance Certification</div></a>
@@ -220,7 +220,7 @@ const Nav = () => {
 
 												<ul className="sub-menu-container mega-menu-column col-lg-3">
 													<li className="menu-item mega-menu-title">
-														<a className="menu-link" href="#"><div>Access To Healthcare</div></a>
+														<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/access-to-healthcare')}}>Access To Healthcare</div></a>
 														<ul className="sub-menu-container">
 															<li className="menu-item">
 																<a className="menu-link" href="javascript:void(0)"><div onClick={() => {router.push('/sustainability/access-to-healthcare/pepfar-program')}}>PEPFAR Program</div></a>

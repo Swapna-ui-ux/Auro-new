@@ -7,14 +7,10 @@ const propTypes = {};
 const defaultProps = {};
  
 const rd = () => {
-    var bannerdetails={
-		bimage :"/img/innerbanner.png",
-		bTitle :"DELIVERING SUSTAINED GROWTH",
-		bcontent :"We are diligently and sustainably achieving <br/> excellence in all that we do",
-	}
+     
     return (
         <>
-         <Innerbanner {...bannerdetails} ></Innerbanner>
+       
          <section id="content">
 			<div className="content-wrap">
 				<div className="container">

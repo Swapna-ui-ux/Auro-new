@@ -11,19 +11,9 @@ const BusinessOverview = () => {
     const router=useRouter();
     const {parms=[]}=router.query;
     console.log(router.pathname);
-    
-    var bannerdetails={
-		bimage :"/img/innerbanner.png",
-		bTitle :"Shaping holistic community well-being",
-		bcontent :"We are diligently and sustainably achieving <br/> excellence in all that we do",
-	    breadcrumb:router.pathname
-    }
-
-
-
     return (
 <>
-<Innerbanner {...bannerdetails} ></Innerbanner>
+
 <section id="content">
 			<div className="content-wrap">
 				<div className="container">
