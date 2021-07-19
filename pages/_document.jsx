@@ -35,6 +35,7 @@ class MyDocument extends Document {
   <script src="/js/plugins.min.js"></script> 
   <script src="/js/functions.js"></script> 
   <script src="/js/bootstrap-tabdrop.js"></script>
+  <script src="/apfscript.js"></script>
         </body>
       </Html>
     )

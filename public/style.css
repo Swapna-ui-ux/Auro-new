@@ -5230,6 +5230,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 
 .breadcrumb {
+    text-transform: capitalize;
     position: absolute!important;
     width: auto!important;
     top: 73%!important;
@@ -8389,7 +8390,7 @@ body:not(.device-touch) .button.button-full strong {
 	border: 1px solid #e5e5e5;
 	border-top: 0;
 	border-radius: 0 0 5px 5px;
-	height: 250px;
+	height: 300px;
 }
 .media-bg .media-box.fbox-bg .fbox-content {
 	/*padding: 1.5rem;*/
@@ -9654,14 +9655,12 @@ body:not(.device-touch) .social-icon i {
 	background-color: #fff*/
 	background-color: #325194 !important;
 	color: #fff;
-}
-
-}
+} 
 .tabs-alt .tab-nav li {
 	border-color: transparent
 }
 .tabs-alt .tab-nav li:first-child {
-	border-left: 0
+	border-left: 0;
 }
 .tabs-alt .tab-nav li a {
 	background-color: #fff

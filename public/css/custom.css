@@ -1498,8 +1498,9 @@ text-align: left; color: #325194;
     line-height: 25px;
 }
 .team-member-designation{
-    font-size: 18px !important;
-    font-weight: bold !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 25px;
 }
 .profile_details p{
     font-size: 17px !important;
