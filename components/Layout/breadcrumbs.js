@@ -855,6 +855,22 @@ export const breadCrumbDetails = {
             "contact-us": "/contact-us"  
         }
     },
+    "404": {
+        bimage: "/img/banners/Careers-Banner-Img2.jpg",
+        bTitle: "BUILDING THE FUTURE",
+        bcontent: "We value your feedback as we are committed <br/> to continuously improving our products and services",
+        path: {
+           
+        }
+    },
+    "500": {
+        bimage: "/img/banners/Careers-Banner-Img2.jpg",
+        bTitle: "BUILDING THE FUTURE",
+        bcontent: "We value your feedback as we are committed <br/> to continuously improving our products and services",
+        path: {
+           
+        }
+    },
 
 
 
