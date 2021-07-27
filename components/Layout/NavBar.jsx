@@ -315,7 +315,7 @@ const NavBar = () => {
 													<ul className="sub-menu-container">
 														<li className="menu-item">
 															<Link href="/sustainability/access-to-healthcare/pepfar-program"><a className="menu-link">
-																<div>PEPFAR Program</div>
+																<div>Pepfar program</div>
 															</a></Link>
 														</li>
 													</ul>

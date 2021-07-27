@@ -408,7 +408,7 @@ export const breadCrumbDetails = {
         bcontent: "We are diligently and sustainably achieving <br/> excellence in all that we do",
         path: {
             "sustainability": "/sustainability", 
-            "access-to-healthcare" : "/sustainability/access-to-healthcare"             
+            "access-to-healthcare": "/sustainability/access-to-healthcare"             
         }
     },
 
