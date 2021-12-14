@@ -50,9 +50,8 @@ const Aboutapf = () => {
 										</div>
 									</div>
 								</div>
-							</div>
-							
-						</div>
+							</div>							
+						</div> 
 
 						<div className="col-md-6 apf-blocks">
 							<div className="heading-block">

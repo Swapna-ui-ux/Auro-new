@@ -14,7 +14,7 @@ const NavBar = () => {
 					<div className="header-row">
 
 					    <div id="logo">
-							<a href="/" className="standard-logo" data-dark-logo="/img/aurobindo-logo.png">
+							<a href="/" className="standard-logo">
 								<img src="/img/aurobindo-logo.png" alt="Aurobindo Logo"/></a> 
 						</div>
 						<div className="header-misc">
@@ -318,23 +318,33 @@ const NavBar = () => {
 																<div>Pepfar program</div>
 															</a></Link>
 														</li>
-													</ul>
+													</ul> 
 												</li>
 											</ul>
 											<ul className="sub-menu-container mega-menu-column col-lg-3">
 												<li className="menu-item mega-menu-title">
-													<Link href="/sustainability/environment"><a className="menu-link">
-														<div>Environment & Community</div>
+													<Link href="/sustainability/sustainability-key-highlights"><a className="menu-link">
+														<div>Sustainability Key Highlights</div>
 													</a></Link>
 													<ul className="sub-menu-container">
 														<li className="menu-item">
-															<Link href="/sustainability/environment"><a className="menu-link">
+															<Link href="/sustainability/sustainability-key-highlights/environment"><a className="menu-link">
 																<div>Environment</div>
 															</a></Link>
 														</li>
 														<li className="menu-item">
-															<Link href="/sustainability/community"><a className="menu-link">
-																<div>Community</div>
+															<Link href="/sustainability/sustainability-key-highlights/social"><a className="menu-link">
+																<div>Social</div>
+															</a></Link>
+														</li>
+														<li className="menu-item">
+															<Link href="/sustainability/sustainability-key-highlights/governance"><a className="menu-link">
+																<div>Governance</div>
+															</a></Link>
+														</li>
+														<li className="menu-item">
+															<Link href="/sustainability/sustainability-key-highlights/report-2020-2021"><a className="menu-link">
+																<div>Report 2020 2021</div>
 															</a></Link>
 														</li>
 													</ul>

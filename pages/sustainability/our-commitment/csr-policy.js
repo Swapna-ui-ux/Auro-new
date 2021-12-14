@@ -36,7 +36,7 @@ const Csrpolicy = () => {
 												1. OBJECTIVE
 											</div>
 										</div>
-										<div className="accordion-content" style={{"display": "none"}}>
+										<div className="accordion-content" style={{"display": "block"}}>
 											<ul>The objectives of this policy are to –
 											 
 											<li>Demonstrate commitment to the common good through responsible business practices and good governance.</li>
@@ -68,7 +68,7 @@ const Csrpolicy = () => {
 												3. CSR VISION 
 											</div>
 										</div>
-										<div className="accordion-content" style={{"display": "block"}}>
+										<div className="accordion-content" style={{"display": "none"}}>
 											<p>The Company shall carry its normal business in a manner that is beneficial to society &amp; environment also in addition to propagation of business.</p><p>For Aurobindo Pharma Limited, Corporate Social Responsibility (CSR) means responsible business practices through the involvement of all stakeholders in the decision making process and in operations. It entails having business policies that are ethical, equitable, environmentally conscious, gender sensitive, and sensitive towards the differently abled. In the process, Aurobindo commits itself to creating a more equitable and inclusive society by supporting processes that lead to sustainable transformation and social integration.</p>
 										</div>
 

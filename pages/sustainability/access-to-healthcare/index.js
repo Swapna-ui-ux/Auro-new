@@ -5,7 +5,7 @@ const propTypes = {};
 
 const defaultProps = {};
 
-const Accesstohealthcare = () => {
+const accesstohealthcare = () => {
     return (
         <>
           <section id="content">
@@ -33,8 +33,8 @@ const Accesstohealthcare = () => {
     );
 }
 
-Accesstohealthcare.propTypes = propTypes;
-Accesstohealthcare.defaultProps = defaultProps;
+accesstohealthcare.propTypes = propTypes;
+accesstohealthcare.defaultProps = defaultProps;
 // #endregion
 
-export default Accesstohealthcare;
+export default accesstohealthcare;

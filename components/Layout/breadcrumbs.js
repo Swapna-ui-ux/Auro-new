@@ -394,6 +394,15 @@ export const breadCrumbDetails = {
         }
     },
 
+    "sustainability": {
+        bimage: "/img/banners/sustainability-img.png",
+        bTitle: "SHAPING HOLISTIC COMMUNITY WELL-BEING",
+        bcontent: "We are diligently and sustainably achieving <br/> excellence in all that we do",
+        path: { 
+            "sustainability": "/sustainability" 
+        }
+    },
+
     "access-to-healthcare": {
         bimage: "/img/banners/sustainability-img.png",
         bTitle: "SHAPING HOLISTIC COMMUNITY WELL-BEING",
@@ -402,22 +411,65 @@ export const breadCrumbDetails = {
             "sustainability": "/sustainability" 
         }
     },
+     
+
     "pepfar-program": {
-        bimage: "/img/banners/Investors-Banner-Img.jpg",
-        bTitle: "SHAPING HOLISTIC COMMUNITY WELL-BEING",
-        bcontent: "We are diligently and sustainably achieving <br/> excellence in all that we do",
+        bimage: "/img/sustainability-keyhighlights/environ-banner.jpg",
+        bTitle: "SUSTAINABILITY AT AUROBINDO PHARMA",
+        bcontent: "Committed to a Healthier Ecosystem",
         path: {
-            "sustainability": "/sustainability", 
-            "access-to-healthcare": "/sustainability/access-to-healthcare"             
+            "sustainability": "/sustainability",
+            "access-to-healthcare": "/sustainability/access-to-healthcare"                  
+        }
+    },
+
+    "sustainability-key-highlights": {
+        bimage: "/img/sustainability-keyhighlights/environ-banner.jpg",
+        bTitle: "SUSTAINABILITY AT AUROBINDO PHARMA",
+        bcontent: "Committed to a Healthier Ecosystem",
+        path: {
+            "sustainability": "/sustainability",
+            "sustainability-key-highlights": "/sustainability/sustainability-key-highlights"      
         }
     },
 
     "environment": {
-        bimage: "/img/banners/sustainability-img.jpg",
+        bimage: "/img/sustainability-keyhighlights/environ-banner.jpg",
         bTitle: "SHAPING HOLISTIC COMMUNITY WELL-BEING",
-        bcontent: "We are diligently and sustainably achieving <br/> excellence in all that we do",
+        bcontent: "We are diligently and sustainably achieving <br/>excellence in all that we do",
         path: {
-            "sustainability": "/sustainability"          
+            "sustainability": "/sustainability",
+            "sustainability-key-highlights": "/sustainability/sustainability-key-highlights"      
+        }
+    },
+
+    "social": {
+        bimage: "/img/sustainability-keyhighlights/environ-banner.jpg",
+        bTitle: "SUSTAINABILITY AT AUROBINDO PHARMA",
+        bcontent: "Committed to a Healthier Ecosystem",
+        path: {
+            "sustainability": "/sustainability",
+            "sustainability-key-highlights": "/sustainability/sustainability-key-highlights"      
+        }
+    },
+
+    "governance": {
+        bimage: "/img/sustainability-keyhighlights/environ-banner.jpg",
+        bTitle: "COMMITTED TO A HEALTHIER ECOSYSTEM",
+        bcontent: "We are committed to providing affordable healthcare and <br/>sustainably achieving excellence in all that we do",
+        path: {
+            "sustainability": "/sustainability",
+            "sustainability-key-highlights": "/sustainability/sustainability-key-highlights"      
+        }
+    },
+
+    "report-2020-2021": {
+        bimage: "/img/sustainability-keyhighlights/Report-innerbanner.jpg",
+        bTitle: "SUSTAINABILITY REPORT 2020-2021",
+        bcontent: "We are committed to providing affordable healthcare and <br/>sustainably achieving excellence in all that we do",
+        path: {
+            "sustainability": "/sustainability",
+            "sustainability-key-highlights": "/sustainability/sustainability-key-highlights"      
         }
     },
 
@@ -855,6 +907,25 @@ export const breadCrumbDetails = {
             "contact-us": "/contact-us"  
         }
     },
+
+    "privacy-policy": {
+        bimage: "/img/banners/innerbanner.png",
+        bTitle: "DELIVERING SUSTAINED GROWTH",
+        bcontent: "We are bringing excellence in all that <br/> we do diligently and sustainably",
+        path: {
+            "privacy-policy": "/privacy-policy"  
+        }
+    },
+
+    "site-map": {
+        bimage: "/img/banners/innerbanner.png",
+        bTitle: "DELIVERING SUSTAINED GROWTH",
+        bcontent: "We are bringing excellence in all that <br/> we do diligently and sustainably",
+        path: {
+            "site-map": "/site-map"  
+        }
+    },
+
     "404": {
         bimage: "/img/banners/Careers-Banner-Img2.jpg",
         bTitle: "BUILDING THE FUTURE",

@@ -3079,7 +3079,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		margin-top: 15px;
 		z-index: -9999;
 		pointer-events: none;
-		transition: opacity .3s ease, margin .25s ease
+		/* transition: opacity .3s ease, margin .25s ease */
 	}
 	.primary-menu:not(.on-click) .menu-item.mega-menu .mega-menu-content .sub-menu-container:not(.mega-menu-dropdown) {
 		margin-top: 0;
@@ -14445,4 +14445,273 @@ label.radio {
 }
 .card-title1{
   color:#000;
+}
+
+/* Nov-17-2021 CSS */
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+
+
+/* Dec-13-2021 */
+.sustain-key-highlight{
+	border: 1px dashed #ccc;
+    padding: 0px 40px; 
+    height: 150px;
+    line-height: 28px;
+}
+.sustain-key-highlight p{
+	background-color: #34549f; 
+	padding: 7px 20px; 
+	color: #fff; 
+	width: 25%;
+    text-align: center;    
+    margin-top: -15px;
+}
+.manufactur table td {
+    padding: 8px;
+    line-height: 20px;
+    vertical-align: top;
+    border-top: 1px solid #e1e1e1;
+}
+.sustainability-goals{
+	margin: 30px 50px;
+}
+.sustainability-goals-img img{
+	border:0px;
+	border-radius: 8px;
+    width: 160px;
+}
+.goal-icon-align{
+	margin: 15px 15px 30px 60px;
+}
+.goal-icon-align1{
+	margin: 0px 15px 30px 60px;
+}
+.goal-icon-align img{
+	padding:15px !important;
+}
+.second-row img{
+	border:0px;
+	border-radius: 8px;
+    width: 160px;
+}
+.third-row{
+	margin: 30px 50px;
+}
+.frame-workk img{
+	/*width: 290px;*/
+    padding: 5px !important;
+}
+.environ-sec{
+	padding: 15px 30px;
+    border: 1px solid #ebebeb;
+    text-align: center; 
+	box-shadow: 0px 2px 12px rgb(0 0 0 / 18%);
+}
+.environ-sec{
+	margin-bottom:25px;
+}
+.environ-sec img{ 
+    border: 0px solid #ccc; 
+	box-shadow: none !important;
+	padding: 0px;
+    width: 70px;
+    margin: 20px;
+}
+.environ-sec .wpb_content_element { 
+    margin-bottom:0px !important; 
+}
+.environ-sec .wpb_content_element .wpb_wrapper { 
+    border: 0px solid #ccc !important; 
+	box-shadow: none !important;
+}
+.environ-sec .wpb_wrapper .vc_figure{ 
+    border: 0px solid #ccc !important; 
+	box-shadow: none !important;
+}
+.governance-icon img{
+	width: 80px;
+    margin-bottom: 20px;
+}
+.governance-con p{
+	padding-top:10px;
+}
+.risk-governance h2{
+	padding-top: 50px;
+    margin-bottom: 0px;
+}
+.social-key-highlight img{
+	width: 500px;
+}
+.training-employee img{
+	width: 100px;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.social-key-video img{
+	 width: 264px;
+    height: 148px;
+    margin-bottom: 36px;
+}
+.esg-aurobindo p{
+	border: 1px dashed #ccc;
+    padding: 25px;
+    background-color: #325194;
+    color: #fff;
+	height: 205px;
+}
+.esg-title{
+	font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 10px 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+.esg-titlerow{
+	padding-bottom:0px !important;
+}
+
+ 
+.enviroments_pagettles{
+	margin-top:40px;
+}
+.arrow-align{
+	float: right; 
+	padding: 28px 45px 0px;
+}
+.environ-section-content{
+	padding-bottom:28px;
+}
+.box-bdr{
+	border:1px dashed #8f8f8f;
+	margin-top: 85px;
+	border-radius: 5px;
+}
+.brdr-firstrow{
+	margin-top: -70px;
+	padding: 0px 40px;
+}
+.brdr-sec{
+    padding-bottom: 45px;
+    margin-top: 50px;
+}
+.pdb-20{
+	padding-bottom: 20px;
+}
+.icon-style{
+   border: 1px solid #ccc;
+   padding: 10px;
+   border-radius: 4px;
+}
+.box-bdr1{
+	border:1px dashed #8f8f8f;
+	margin-top: 90px;
+	border-radius: 5px;
+}
+.colseven{
+	width:14.2%;
+}
+
+ 
+@media screen and (max-width:767px) {
+.arrow-align{
+	float: right; 
+	padding: 0px 45px 0px;
+}
+.esg-title{
+	margin-bottom: -15px;
+    font-size: 22px !important;
+}
+.goal-img{
+	margin-bottom: 0px;
+    padding: 5px;
+}
+.box-bdr{
+	border:none; 
+}
+.box-bdr1{
+	border:none; 
+	margin-top: 70px;
+}
+.brdr-firstrow {
+    padding: 0px 0px;
+}
+.colseven{
+	width:50%;
+}
+.sustain-key-highlight {
+    border: 1px dashed #ccc;
+    padding: 0px 20px;
+    margin: 25px; 
+    height: auto;
+	width: 100%;
+}
+.goal-icon-align {
+    margin: 0px; 
+}
+.goal-icon-align img { 
+    padding: 15px !important;
+    max-width: 100px !important; 
+}
+.goal-icon-align1 {
+    margin: 0px;
+}
+.esg-aurobindo p {
+    height: auto;  
+}
+.environ-sec img { 
+    max-width: 70px !important; 
+}
+.environ-sec .wpb_wrapper {
+    padding: 5px;
+    margin-bottom: 20px; 
+}
+.training-employee img {
+    max-width: 100px !important; 
+	padding:15px;
+}   
+ 
+}  
+    
+.mrtb-30{
+	margin: 30px 0px;
+}
+.framesec{
+	margin-top: 60px;
+}
+.pdt-20{
+	padding-top: 20px;
+}
+.pdt-40{
+	padding-top: 40px;
+}
+.sustainability-landscape{
+    background-color: #07bb57; 
+    padding: 12px 10px; 
+    text-align: center; 
+    border-radius: 6px; 
+    box-shadow: 3px -4px 21px 1px rgba(26,26,26,0.75) inset; 
+    -webkit-box-shadow: 3px -4px 21px 1px rgba(26,26,26,0.75) inset; 
+    -moz-box-shadow: 3px -4px 21px 1px rgba(26,26,26,0.75) inset;
+	} 
+.sustainability-landscape a{   
+	 color: #fff; 
+	 font-weight: bold; 
+	 font-size: 18px;
+}
+.landscape-view p{
+	text-align: center; 
+	padding-top: 10px; 
+	font-size: 14px; 
+	color: #314e93;
 }

@@ -1376,7 +1376,7 @@ function semicolonweb_loadScriptAsync(a, o) {
     var n = document.createElement("script");
     n.onload = o, n.src = a, document.head.appendChild(n)
 }
-semicolonweb_loadScriptAsync("", function() {
+semicolonweb_loadScriptAsync("https://www.googletagmanager.com/gtag/js?id=G-H74KY38NCR", function() {
     function a() {
         dataLayer.push(arguments)
     }
