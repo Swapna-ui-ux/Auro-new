@@ -35,27 +35,27 @@ const index = () => {
 								<div className="row brdr-sec">
 									<div className="col-md-2 col-xs-6 goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/affordable.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/affordable.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/cleanwater.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/cleanwater.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/responsible.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/responsible.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/climate.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/climate.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/industry.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/industry.jpg" alt="" />
 										</div>
 									</div>
 								</div>
@@ -64,7 +64,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/reneweable-energy1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/reneweable-energy1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -74,7 +74,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/carbon-dioxide1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/carbon-dioxide1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -84,7 +84,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/towards1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/towards1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -96,7 +96,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/coprocess1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/coprocess1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -106,7 +106,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/reuse1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/reuse1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -116,7 +116,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/suppliers1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/suppliers1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -132,37 +132,37 @@ const index = () => {
 								<div className="row brdr-sec">
 									<div className="col-md-2 col-xs-6 colseven goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/genderequality.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/genderequality.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 colseven goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/decentwork.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/decentwork.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 colseven goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/reduced.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/reduced.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 colseven goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/goodhealth.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/goodhealth.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 colseven goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/nopverty.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/nopverty.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 colseven goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/zerohunger.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/zerohunger.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 colseven goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/quality-education.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/quality-education.jpg" alt="" />
 										</div>
 									</div>
 								</div>
@@ -171,7 +171,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/equality1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/equality1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -181,7 +181,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/onboarding1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/onboarding1.png" alt="" />
 												</div>
 											</div>
 						 					<div className="col-md-10 col-xs-12">
@@ -191,7 +191,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/community1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/community1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -203,7 +203,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/exclamation-mark1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/exclamation-mark1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -213,7 +213,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/doctor1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/doctor1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -229,12 +229,12 @@ const index = () => {
 								<div className="row brdr-sec">
 									<div className="col-md-2 col-xs-6 goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/peace.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/peace.jpg" alt="" />
 										</div>
 									</div>
 									<div className="col-md-2 col-xs-6 goal-img">
 										<div className="sustainability-goals-img">
-											<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/partnerships.jpg" alt="" />
+											<img src="/img/sustainability-keyhighlights/partnerships.jpg" alt="" />
 										</div>
 									</div>
 								</div>
@@ -243,7 +243,7 @@ const index = () => {
 										<div className="row pdb-20">
 											<div className="col-md-2 col-xs-6">
 												<div className="icon-style">
-													<img src="http://weblabsprojects.in/aurobindo/wp-content/uploads/2021/12/earth-day1.png" alt="" />
+													<img src="/img/sustainability-keyhighlights/earth-day1.png" alt="" />
 												</div>
 											</div>
 											<div className="col-md-10 col-xs-12">
@@ -323,7 +323,7 @@ const index = () => {
 									    <div className="esg-aurobindo">
 										  <p>
 										  	We take pride in the success, growth and empowerment of its employees as they represent our brand to the external world and help us realise our aspirations.
-										    <a className="arrow-align" href="http://weblabsprojects.in/aurobindo/sustainability-key-highlights/environment/"><i className="long-arrow" style={{"color": "#fff;"}}>→</i></a> 
+										    <a className="arrow-align" href="http://weblabsprojects.in/aurobindo/sustainability-key-highlights/social/"><i className="long-arrow" style={{"color": "#fff;"}}>→</i></a> 
 									    </p>
 										</div> 
 									 </div> 
@@ -332,7 +332,7 @@ const index = () => {
 									    <div className="esg-aurobindo">
 										  <p>
 										  	We have always emphasised the importance of stakeholders and strong governance to ensure long-term growth while minimising disruptions caused by ethical or transparency issues.
-										    <a className="arrow-align" href="http://weblabsprojects.in/aurobindo/sustainability-key-highlights/environment/"><i className="long-arrow" style={{"color": "#fff;"}}>→</i></a> 
+										    <a className="arrow-align" href="http://weblabsprojects.in/aurobindo/sustainability-key-highlights/governance/"><i className="long-arrow" style={{"color": "#fff;"}}>→</i></a> 
 									    </p>
 										</div> 
 									 </div> 	
