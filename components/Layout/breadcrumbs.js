@@ -410,18 +410,7 @@ export const breadCrumbDetails = {
         path: { 
             "sustainability": "/sustainability" 
         }
-    },
-     
-
-    "pepfar-program": {
-        bimage: "/img/sustainability-keyhighlights/environ-banner.jpg",
-        bTitle: "SUSTAINABILITY AT AUROBINDO PHARMA",
-        bcontent: "Committed to a Healthier Ecosystem",
-        path: {
-            "sustainability": "/sustainability",
-            "access-to-healthcare": "/sustainability/access-to-healthcare"                  
-        }
-    },
+    },   
 
     "sustainability-key-highlights": {
         bimage: "/img/sustainability-keyhighlights/environ-banner.jpg",
