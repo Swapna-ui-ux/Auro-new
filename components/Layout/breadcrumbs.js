@@ -248,7 +248,7 @@ export const breadCrumbDetails = {
     },
 
     "annual-csr-report": {
-        bimage: "/img/banners/3.jpg",
+        bimage: "/img/banners/sustainability-img.png",
         bTitle: "AUROBINDO CSR TRACTION FOR <br/> BUSINESS EXCELLENCE",
         bcontent: "",
         path: {
@@ -943,7 +943,7 @@ export const breadCrumbDetails = {
     },
 
    "our-commitment": {
-        bimage: "/img/banners/Investors-Banner-Img.jpg",
+        bimage: "/img/banners/sustainability-img.png",
         bTitle: "DELIVERING ROBUST FINANCIALS",
         bcontent: "We believe that execution is everything <br/>and always challenge ourselves to deliver superior performance",
         path: {
@@ -953,7 +953,7 @@ export const breadCrumbDetails = {
     },
 
     "aurobindo-foundation": {
-        bimage: "/img/banners/Investors-Banner-Img.jpg",
+        bimage: "/img/banners/sustainability-img.png",
         bTitle: "DELIVERING ROBUST FINANCIALS",
         bcontent: "We believe that execution is everything <br/>and always challenge ourselves to deliver superior performance",
         path: {
@@ -963,7 +963,7 @@ export const breadCrumbDetails = {
     },
 
     "annual-action-plan": {
-        bimage: "/img/banners/Investors-Banner-Img.jpg",
+        bimage: "/img/banners/sustainability-img.png",
         bTitle: "DELIVERING ROBUST FINANCIALS",
         bcontent: "We believe that execution is everything <br/>and always challenge ourselves to deliver superior performance",
         path: {
@@ -973,7 +973,7 @@ export const breadCrumbDetails = {
     },
 
     "csrgallery": {
-        bimage: "/img/banners/Investors-Banner-Img.jpg",
+        bimage: "/img/banners/sustainability-img.png",
         bTitle: "DELIVERING ROBUST FINANCIALS",
         bcontent: "We believe that execution is everything <br/>and always challenge ourselves to deliver superior performance",
         path: {

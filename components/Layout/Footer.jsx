@@ -57,7 +57,7 @@ const Footer = () => {
 								<div className="modal-dialog modal-fullscreen">
 									<div className="modal-content">
 										<div className="modal-header">  
-											<button type="button" className="popup-close btn-sm" data-bs-dismiss="modal" aria-hidden="true"> <img src="http://d9hhrg4mnvzow.cloudfront.net/www2.iweb.com/windows-server-2016/ed5b870c-clear-close-cancel-white.png"/></button>
+											<button type="button" className="popup-close btn-sm" data-bs-dismiss="modal" aria-hidden="true"> <img src="/img/close.png"/></button>
 
 										</div>
 										<div className="modal-body">
