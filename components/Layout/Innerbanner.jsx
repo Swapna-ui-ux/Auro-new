@@ -36,7 +36,10 @@ const router = useRouter();
 		} else if(i === rawRoute.length - 1) {
 			path = router.pathname;
 		} else {
-			path = breadCrumbDetails[name].path[name]
+			
+			if (typeof breadCrumbDetails[name].path[name] !== "undefined" ) {
+				path = breadCrumbDetails[name].path[name]
+			}
 		}
 		console.log('jhgfdcnvfghj', i, path)
 		return path

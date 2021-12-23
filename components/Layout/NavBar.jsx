@@ -173,137 +173,35 @@ const NavBar = () => {
 											<ul className="sub-menu-container mega-menu-column col-lg-3">
 												<li className="menu-item mega-menu-title">
 													<Link href="/sustainability/our-commitment/csr-policy"><a className="menu-link">
-														<div>Corporate Social Responsibility</div>
+														<div>CSR</div>
 													</a></Link>
 													<ul className="sub-menu-container">
 														<li className="menu-item">
-															<Link href="/sustainability/our-commitment/csr-policy"><a className="menu-link">
+															<Link href="/sustainability/our-commitment"><a className="menu-link">
 																<div>Our Commitment</div>
-															</a></Link>
-															<ul className="sub-menu-container mega-menu-dropdown">
-																<li className="menu-item">
-																	<Link href="/sustainability/our-commitment/csr-policy"><a className="menu-link">
-																		<div>CSR Policy</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/our-commitment/annual-action-plan"><a className="menu-link">
-																		<div>Annual Action Plan</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/our-commitment/csr-committee"><a className="menu-link">
-																		<div>CSR Committee</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/our-commitment/key-message"><a className="menu-link">
-																		<div>Key Message</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/our-commitment/focus-areas"><a className="menu-link">
-																		<div>Focus Areas & Sdgs</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/our-commitment/implementing-partners"><a className="menu-link">
-																		<div>Implementing Partners</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/our-commitment/flagship-programs"><a className="menu-link">
-																		<div>Flagship Programs</div>
-																	</a></Link>
-																</li>
-															</ul>
+															</a></Link> 
 														</li>
 														<li className="menu-item">
-															<Link href="/sustainability/reports/annual-csr-report"><a className="menu-link">
-																<div>Reports</div>
-															</a></Link>
-															<ul className="sub-menu-container mega-menu-dropdown">
-																<li className="menu-item">
-																	<Link href="/sustainability/reports/annual-csr-report"><a className="menu-link">
-																		<div>Annual Reports</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/reports/csr-publications"><a className="menu-link">
-																		<div>CSR Publications</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/reports/resources"><a className="menu-link">
-																		<div>Resources</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/reports/stakeholder-reports"><a className="menu-link">
-																		<div>Stakeholder Reports</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/reports/impact-assessment"><a className="menu-link">
-																		<div>Impact Assessment</div>
-																	</a></Link>
-																</li>
-															</ul>
+															<Link href="/sustainability/annual-csr-report"><a className="menu-link">
+																<div>Annual Report</div>
+															</a></Link> 
 														</li>
 														<li className="menu-item">
-															<Link href="/sustainability/testimonials/awards-recognition"><a className="menu-link">
-																<div>Testimonials</div>
+															<Link href="/sustainability/csrgallery"><a className="menu-link">
+																<div>Gallery</div>
 															</a></Link>
-															<ul className="sub-menu-container mega-menu-dropdown">
-																<li className="menu-item">
-																	<Link href="/sustainability/testimonials/awards-recognition"><a className="menu-link">
-																		<div>Awards and Recognition</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/testimonials/documentaries"><a className="menu-link">
-																		<div>Documentaries</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/testimonials/media-news"><a className="menu-link">
-																		<div>Media News</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/testimonials/gallery"><a className="menu-link">
-																		<div>Photo Gallery</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/testimonials/beneficiaries-stories"><a className="menu-link">
-																		<div>Beneficiaries Stories</div>
-																	</a></Link>
-																</li>
-															</ul>
 														</li>
 														<li className="menu-item">
-															<Link href="/sustainability/aurobindo-foundation/about-apf"><a className="menu-link">
+															<Link href="/sustainability/aurobindo-foundation"><a className="menu-link">
 																<div>Aurobindo Pharma Foundation</div>
+															</a></Link> 
+														</li> 
+														<li className="menu-item">
+															<Link href="/sustainability/annual-action-plan"><a className="menu-link">
+																<div>Annual Action Plan</div>
 															</a></Link>
-															<ul className="sub-menu-container mega-menu-dropdown">
-																<li className="menu-item">
-																	<Link href="/sustainability/aurobindo-foundation/about-apf"><a className="menu-link">
-																		<div>About APF</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/aurobindo-foundation/our-metamorphosis"><a className="menu-link">
-																		<div>Our Metamorphosis</div>
-																	</a></Link>
-																</li>
-																<li className="menu-item">
-																	<Link href="/sustainability/aurobindo-foundation/our-community-outreaches"><a className="menu-link">
-																		<div>Our Community Outreaches</div>
-																	</a></Link>
-																</li>
-															</ul>
-														</li>
+														</li> 
+														
 													</ul>
 												</li>
 											</ul>

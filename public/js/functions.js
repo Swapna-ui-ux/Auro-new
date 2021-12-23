@@ -1279,7 +1279,7 @@ var SEMICOLON = SEMICOLON || {};
         init: function() {
             SEMICOLON.slider.swiperSliderMenu(!0), SEMICOLON.slider.revolutionSliderMenu(!0), SEMICOLON.initialize.stickFooterOnSmall(), SEMICOLON.widget.gridInit();
             let e = setInterval(function() {
-                "pluginIsotopeReady" in scwEvents && (SEMICOLON.widget.filterInit(), SEMICOLON.widget.masonryThumbs(), clearInterval(e))
+                //"pluginIsotopeReady" in scwEvents && (SEMICOLON.widget.filterInit(), SEMICOLON.widget.masonryThumbs(), clearInterval(e))
             }, 1e3);
             SEMICOLON.widget.parallax(), SEMICOLON.widget.loadFlexSlider(), SEMICOLON.widget.html5Video(), SEMICOLON.widget.ticker(), SEMICOLON.header.responsiveMenuClass(), SEMICOLON.initialize.modal(), SEMICOLON.customization.onLoad()
         }

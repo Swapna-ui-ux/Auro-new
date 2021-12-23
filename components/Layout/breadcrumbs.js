@@ -412,6 +412,16 @@ export const breadCrumbDetails = {
         }
     },   
 
+    "pepfar-program": {
+        bimage: "/img/banners/sustainability-img.png",
+        bTitle: "SHAPING HOLISTIC COMMUNITY WELL-BEING",
+        bcontent: "We are diligently and sustainably achieving <br/> excellence in all that we do",
+        path: { 
+            "sustainability": "/sustainability",
+            "access-to-healthcare": "/sustainability/access-to-healthcare"
+        }
+    },  
+
     "sustainability-key-highlights": {
         bimage: "/img/sustainability-keyhighlights/environ-banner.jpg",
         bTitle: "SUSTAINABILITY AT AUROBINDO PHARMA",
@@ -932,6 +942,45 @@ export const breadCrumbDetails = {
         }
     },
 
+   "our-commitment": {
+        bimage: "/img/banners/Investors-Banner-Img.jpg",
+        bTitle: "DELIVERING ROBUST FINANCIALS",
+        bcontent: "We believe that execution is everything <br/>and always challenge ourselves to deliver superior performance",
+        path: {
+           "sustainability": "/sustainability",  
+            "our-commitment": "/sustainability/our-commitment" 
+        }
+    },
+
+    "aurobindo-foundation": {
+        bimage: "/img/banners/Investors-Banner-Img.jpg",
+        bTitle: "DELIVERING ROBUST FINANCIALS",
+        bcontent: "We believe that execution is everything <br/>and always challenge ourselves to deliver superior performance",
+        path: {
+           "sustainability": "/sustainability",  
+            "aurobindo-foundation": "/sustainability/aurobindo-foundation" 
+        }
+    },
+
+    "annual-action-plan": {
+        bimage: "/img/banners/Investors-Banner-Img.jpg",
+        bTitle: "DELIVERING ROBUST FINANCIALS",
+        bcontent: "We believe that execution is everything <br/>and always challenge ourselves to deliver superior performance",
+        path: {
+           "sustainability": "/sustainability",  
+            "annual-action-plan": "/sustainability/annual-action-plan" 
+        }
+    },
+
+    "csrgallery": {
+        bimage: "/img/banners/Investors-Banner-Img.jpg",
+        bTitle: "DELIVERING ROBUST FINANCIALS",
+        bcontent: "We believe that execution is everything <br/>and always challenge ourselves to deliver superior performance",
+        path: {
+           "sustainability": "/sustainability",  
+            "csrgallery": "/sustainability/csrgallery" 
+        }
+    },
 
 
 
